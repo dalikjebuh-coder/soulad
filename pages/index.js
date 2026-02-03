@@ -86,7 +86,7 @@ const conversationTips = [
 const areaGuidance = {
   communication: {
     different: {
-      title: 'Komunikace – když to vidíte jinak',
+      title: 'Komunikace',
       intro: 'Jeden z vás se cítí vyslyšený, druhý ne. To je cenná informace – ne důvod k hádce.',
       questions: [
         'Kdy ses naposledy cítil/a, že ti opravdu naslouchám?',
@@ -96,8 +96,8 @@ const areaGuidance = {
       tip: 'Zkuste tento týden: Každý večer 10 minut bez telefonů, jen vy dva.'
     },
     bothNegative: {
-      title: 'Komunikace – oba cítíte, že to vázne',
-      intro: 'Je skvělé, že to oba vidíte. Teď máte šanci to společně změnit.',
+      title: 'Komunikace',
+      intro: 'Oba cítíte, že to vázne. Teď máte šanci to společně změnit.',
       questions: [
         'Co nám v komunikaci funguje? (I malé věci se počítají)',
         'Kdy se nám mluvilo nejlépe?',
@@ -108,7 +108,7 @@ const areaGuidance = {
   },
   intimacy: {
     different: {
-      title: 'Intimita – různé vnímání',
+      title: 'Intimita',
       intro: 'Intimitu každý prožíváme jinak. Rozdíl neznamená odmítnutí.',
       questions: [
         'Co pro tebe intimita znamená? (Nemusí jít jen o sex)',
@@ -118,7 +118,7 @@ const areaGuidance = {
       tip: 'Zkuste tento týden: Věnujte si fyzickou pozornost bez očekávání – objetí, držení za ruce, mazlení.'
     },
     bothNegative: {
-      title: 'Intimita – oba cítíte vzdálenost',
+      title: 'Intimita',
       intro: 'Když se oba cítíte fyzicky vzdálení, je to signál, že si chcete být blíž. To je dobrý základ.',
       questions: [
         'Co nám fungovalo dřív?',
@@ -130,7 +130,7 @@ const areaGuidance = {
   },
   time: {
     different: {
-      title: 'Společný čas – jiné potřeby',
+      title: 'Společný čas',
       intro: 'Každý potřebuje jinou "dávku" společného času. Nejde o to, kdo má pravdu.',
       questions: [
         'Kolik společného času bys potřeboval/a, abys byl/a spokojený/á?',
@@ -140,7 +140,7 @@ const areaGuidance = {
       tip: 'Zkuste tento týden: Naplánujte si jedno "rande" – i kdyby to byla jen procházka nebo káva.'
     },
     bothNegative: {
-      title: 'Společný čas – oba vám chybí',
+      title: 'Společný čas',
       intro: 'Oba cítíte, že vám něco uniká. To znamená, že vám na sobě záleží.',
       questions: [
         'Co nám bere nejvíc času? (Práce, děti, telefon...)',
@@ -152,8 +152,8 @@ const areaGuidance = {
   },
   household: {
     different: {
-      title: 'Domácnost – různý pohled na férovost',
-      intro: 'Co je "férové" vidí každý jinak. Důležité je najít rovnováhu, která funguje pro oba.',
+      title: 'Domácnost',
+      intro: 'Co je "férové" vidí každý trošku jinak. Důležité je najít rovnováhu, která funguje pro oba.',
       questions: [
         'Co tě v domácnosti nejvíc zatěžuje?',
         'Cítíš, že tvoje práce není vidět nebo oceněná?',
@@ -162,8 +162,8 @@ const areaGuidance = {
       tip: 'Zkuste tento týden: Sepište si všechny povinnosti a rozdělte je znovu – tentokrát společně.'
     },
     bothNegative: {
-      title: 'Domácnost – oba jste nespokojení',
-      intro: 'Když to drhne oběma, je čas na reset. Žádný z vás by se neměl cítit jako "služka".',
+      title: 'Domácnost',
+      intro: 'Když to drhne oběma, je čas na reset. Žádný z vás by se neměl cítit jako "poskok".',
       questions: [
         'Co nás nejvíc frustruje?',
         'Jaké povinnosti bychom mohli zjednodušit nebo zrušit?',
@@ -174,7 +174,7 @@ const areaGuidance = {
   },
   support: {
     different: {
-      title: 'Emoční opora – jiné potřeby',
+      title: 'Emoční opora',
       intro: 'Každý potřebuje podporu jinak. Co pro jednoho znamená lásku, druhý ani nevnímá.',
       questions: [
         'Jak poznám, že potřebuješ podporu?',
@@ -184,7 +184,7 @@ const areaGuidance = {
       tip: 'Zkuste tento týden: Zeptejte se partnera "Jak se dneska cítíš?" – a opravdu poslouchejte odpověď.'
     },
     bothNegative: {
-      title: 'Emoční opora – oba se cítíte sami',
+      title: 'Emoční opora',
       intro: 'Když se oba cítíte bez opory, je to těžké – ale také to znamená, že oba něco potřebujete.',
       questions: [
         'Kdy ses naposledy cítil/a, že jsem ti oporou?',
@@ -196,18 +196,18 @@ const areaGuidance = {
   },
   future: {
     different: {
-      title: 'Budoucnost – různé představy',
+      title: 'Budoucnost',
       intro: 'Mít jiné představy o budoucnosti je běžné. Důležité je o nich mluvit.',
       questions: [
         'Kde se vidíš za 5 let?',
         'Je něco, v čem si nejsi jistý/á ohledně naší budoucnosti?',
         'Co je pro tebe v životě nejdůležitější?'
       ],
-      tip: 'Zkuste tento týden: Sedněte si a nakreslete si "mapu" společné budoucnosti – co chcete oba?'
+      tip: 'Zkuste tento týden: Představte si "mapu" společné budoucnosti – máte podobný cíl?'
     },
     bothNegative: {
-      title: 'Budoucnost – oba tápete',
-      intro: 'Když oba nevíte, kam směřujete, je čas si sednout a promluvit si o tom vážně.',
+      title: 'Budoucnost',
+      intro: 'Když oba nevíte, kam směřujete, je čas si sednout a promluvit si o tom.',
       questions: [
         'Co nás spojuje? Proč jsme spolu?',
         'Je něco, co tě trápí ohledně naší budoucnosti?',
@@ -219,6 +219,24 @@ const areaGuidance = {
 };
 
 const generateId = () => Math.random().toString(36).substr(2, 9);
+
+// API helper functions
+const saveSession = async (id, data) => {
+  const response = await fetch('/api/session', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ id, data })
+  });
+  return response.ok;
+};
+
+const getSession = async (id) => {
+  const response = await fetch(`/api/session?id=${id}`);
+  if (response.ok) {
+    return await response.json();
+  }
+  return null;
+};
 
 export default function Home() {
   const [screen, setScreen] = useState('loading');
@@ -265,9 +283,8 @@ export default function Home() {
     
     if (sid) {
       try {
-        const stored = localStorage.getItem(`session:${sid}`);
-        if (stored) {
-          const data = JSON.parse(stored);
+        const data = await getSession(sid);
+        if (data) {
           setSessionId(sid);
           setSessionData(data);
           
@@ -317,7 +334,7 @@ export default function Home() {
           ...sessionData,
           partnerB: { name, answers }
         };
-        localStorage.setItem(`session:${sessionId}`, JSON.stringify(updatedData));
+        await saveSession(sessionId, updatedData);
         setSessionData(updatedData);
         setScreen('pre-results');
       } else {
@@ -326,7 +343,7 @@ export default function Home() {
           partnerA: { name, answers },
           createdAt: new Date().toISOString()
         };
-        localStorage.setItem(`session:${newId}`, JSON.stringify(newSessionData));
+        await saveSession(newId, newSessionData);
         setSessionId(newId);
         setSessionData(newSessionData);
         setScreen('share');
@@ -663,20 +680,15 @@ export default function Home() {
             <div className="pt-6 border-t border-gray-100">
               <p className="text-sm text-gray-500 mb-2">Tvůj partner už vyplnil?</p>
               <button
-                onClick={() => {
-                  try {
-                    const stored = localStorage.getItem(`session:${sessionId}`);
-                    if (stored) {
-                      const data = JSON.parse(stored);
-                      setSessionData(data);
-                      if (data.partnerB) {
-                        setScreen('pre-results');
-                      } else {
-                        alert('Partner ještě nevyplnil svou část.');
-                      }
+                onClick={async () => {
+                  const data = await getSession(sessionId);
+                  if (data) {
+                    setSessionData(data);
+                    if (data.partnerB) {
+                      setScreen('pre-results');
+                    } else {
+                      alert('Partner ještě nevyplnil svou část.');
                     }
-                  } catch (e) {
-                    alert('Nepodařilo se načíst data.');
                   }
                 }}
                 className="text-purple-600 text-sm underline"
