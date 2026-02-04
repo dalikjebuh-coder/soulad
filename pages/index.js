@@ -508,7 +508,7 @@ export default function Home() {
             <h2 className="text-xl font-bold text-center text-gray-800 mb-4">Než začnete odpovídat</h2>
             
             <p className="text-gray-600 text-center mb-8">
-              Každý vztah vnímáme jinak – a to je v pořádku. Cílem není mít stejné odpovědi, ale pochopit pohled toho druhého.
+              Každý vztah vnímáte jinak – a to je v pořádku. Cílem není mít stejné odpovědi, ale pochopit pohled toho druhého.
             </p>
 
             <button
@@ -715,11 +715,11 @@ export default function Home() {
             <h2 className="text-xl font-bold text-center text-gray-800 mb-4">Než uvidíte výsledky</h2>
             
             <p className="text-gray-600 text-center mb-6">
-              Možná za chvilku zjistíte, že každý vnímáte vztah trošku jinak – a to je v pořádku. Cílem není mít stejné odpovědi, ale pochopit pohled toho druhého. Váš vztah tím můžete hodně zlepšit.
+              Možná za chvilku zjistíte, že každý vnímáte vztah trošku jinak – a to je v pořádku. Cílem není mít stejné odpovědi, ale pochopit pohled toho druhého.
             </p>
             
             <div className="bg-purple-50 rounded-xl p-4 mb-8 text-sm text-purple-800">
-              <span className="font-medium">💡 Tip:</span> Výsledky mají největší smysl, když si je projdete společně a v klidu.
+              <span className="font-medium">💡 Tip:</span> Projděte si výsledky společně a v klidné chvíli. Bude to mít větší smysl.
             </div>
 
             <button
