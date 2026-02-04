@@ -78,8 +78,8 @@ const questions = [
 
 const conversationTips = [
   { icon: '👂', title: 'Nejdřív poslouchejte', text: 'Každý ať řekne, co ho ve výsledcích překvapilo. Druhý jen poslouchá, nepřerušuje.' },
-  { icon: '❤️', title: 'Ptejte se na potřeby', text: 'Místo "Proč jsi dal/a jedničku?" zkuste "Co bys potřeboval/a, abys byl/a spokojenější?"' },
-  { icon: '🚫', title: 'Partnera nekritizujte', text: 'Partnerův pocit je validní, i když ho vidíte jinak. Cílem není vyhrát, ale porozumět.' },
+  { icon: '❤️', title: 'Ptejte se na potřeby', text: 'Místo "Proč jsi dal/a tohle?" zkuste "Co bys potřeboval/a, abys byl/a spokojenější?"' },
+  { icon: '🚫', title: 'Partnera nekritizujte', text: 'Partnerův pocit je validní, i když ho vidíte jinak. Cílem není vyhrát, ale porozumět si.' },
   { icon: '🎯', title: 'Vyberte jednu věc', text: 'Nezkoušejte vyřešit všechno najednou. Domluvte se na jednom malém kroku.' }
 ];
 
