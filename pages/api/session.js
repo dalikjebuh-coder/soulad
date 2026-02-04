@@ -1,4 +1,9 @@
-import { kv } from '@vercel/kv';
+import { Redis } from '@upstash/redis';
+
+const redis = new Redis({
+  url: process.env.REDIS_URL,
+  token: process.env.REDIS_TOKEN,
+});
 
 export default async function handler(req, res) {
   const { method } = req;
@@ -9,13 +14,14 @@ export default async function handler(req, res) {
       return res.status(400).json({ error: 'Missing session ID' });
     }
     try {
-      const data = await kv.get(`session:${id}`);
+      const data = await redis.get(`session:${id}`);
       if (data) {
         return res.status(200).json(data);
       } else {
         return res.status(404).json({ error: 'Session not found' });
       }
     } catch (error) {
+      console.error('Redis GET error:', error);
       return res.status(500).json({ error: 'Failed to get session' });
     }
   }
@@ -26,9 +32,10 @@ export default async function handler(req, res) {
       return res.status(400).json({ error: 'Missing id or data' });
     }
     try {
-      await kv.set(`session:${id}`, data, { ex: 60 * 60 * 24 * 30 }); // 30 days
+      await redis.set(`session:${id}`, data, { ex: 60 * 60 * 24 * 30 });
       return res.status(200).json({ success: true });
     } catch (error) {
+      console.error('Redis SET error:', error);
       return res.status(500).json({ error: 'Failed to save session' });
     }
   }
